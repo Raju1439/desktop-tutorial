@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <style>
+       body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url(img3/music7.jpg);
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 8px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 50%;
+  padding: 33px;
+  text-align: center;
+}
+h2{
+    letter-spacing: 10px;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: turquoise;
+    font-size:70px;
+    color: aquamarine;
+    text-shadow: 5px 5px blue;
+}
+a{
+    color:cornflowerblue;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+button{
+    margin: 5px;
+    background-color:tomato;
+    font-size: 20px;
+    color: #f1f1f1;
+   padding: auto;
+    border-radius: 13%;
+    height: 10%;
+    
+    
+}
+button:hover{
+    background-color: lightgreen;
+}
+a:hover{
+    background-color:lightgreen
+}
+input:hover{
+    background-color:skyblue;
+    
+}
+label{
+    font-size: 20px;
+    color:cornflowerblue;
+    
+}
+small {
+    text-indent: 10%;
+    color: slategray;
+    
+}
+input{
+    margin: 10px;
+    padding: 5px;
+    width: 30%;
+    background-color: black;
+    border-radius: 10%;
+    color:aqua;
+    font-size:large;
+}
+    </style>
+</head>
+<body bgcolor="black">
+    <div class="bg-image"></div>
+
+<div class="bg-text">
+    <form action="#" method="post">
+        <img src="img3/b-removebg-preview.png" alt="" width="20%"> <img src="img3/m.png" alt="" style=" width: 30%;"><img src="img3/b-removebg-preview.png" alt="" width="20%"><br><img src="img3/b-removebg-preview.png" alt="" width="20%"><img src="img3/music2-removebg-preview.png" alt="" width="400px"><img src="img3/b-removebg-preview.png" alt="" width="20%"><br>
+  <label for="full name"><b>Full name :  </b></label>
+  <input type="text" name="name" id="name" required><br>
+  <label for="Email id">Email id  :    </label>
+  <input type="email" name="name" id="name" required ><br>
+  <label for="DOB">Date of birth :</label>
+  <input type="date" name="number" id="number" required><br>
+  <label for="ph no.">Phone NO. :</label>
+  <input type="number" name="number" id="number" required><br>
+  <input type="checkbox" name="name" id="name" style="text-align: left;"><small>Agree terms & conditions!</small><br>
+  <a href="home.html" style="padding: 4px 7px; text-decoration: none;display: inline block; background-color: tomato; color: #f1f1f1;border-radius: 10%;margin: 10px;">Submit</a>
+
+  
+  
+</form>
+</div>
+</body>
+</html>

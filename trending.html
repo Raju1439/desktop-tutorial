@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar</title>
+    <style>
+        
+        /* Style for the search container */
+        .search-container {
+            display: flex;
+            justify-content: flex-end; /* Align to the right */
+            
+            padding: 10px;
+            
+        }
+
+        /* Style for the search input */
+        .search-input {
+            padding: 10px;
+            width: 200px;
+            border: none;
+            border-radius: 10px;
+            outline: none;
+        }
+
+        /* Style for the search button */
+        .search-button {
+            padding: 10px 20px;
+            background-color: #088a8a;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .menu a
+        {
+            
+            border-radius: 10%;
+            padding: 0.3%;
+          text-align: center;
+          color:#bbb;
+          text-decoration: none;  
+          margin: 1.5%;
+          font-size:x-large
+        }
+        .btn{
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  cursor: pointer;
+  font-size: 18px;
+  float:right;
+  
+}
+select{
+    color:#bbb;
+    background-color:black;
+     
+    
+}
+
+
+img{
+    border-radius: 10%;
+    
+    
+}
+.column {
+  float: left;
+  width: 10%;
+  margin: 1.1%;
+  padding: 10px;
+  height: 170px;
+  
+  
+  border-radius: 10%; /* Should be removed. Only for demonstration */
+}
+
+.artist {
+  float: left;
+  width: 10%;
+  margin: 4%;
+  padding: 10px;
+  height: 200px;
+  
+  
+  border-radius: 10%; /* Should be removed. Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+.sing:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+h1{
+    color: #ccc;
+    text-indent: 50px;
+    word-spacing: -2px;
+}
+
+
+
+
+.mySlides {display:none;}
+</style>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+</head>
+<body bgcolor="black">
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search...">
+        <button class="search-button">Search</button>
+    </div>
+    <div class="menu">
+        <a href="all.html">All</a>
+        <a href="trending.html">Trending songs</a>
+        <a href="old.html">Old songs</a>
+        <a href="New songs">Latest hit songs</a>
+        <select>
+            <option value="0" >Top Albums</option>
+            <option value="0">TELUGU</option>
+            <option value="1">HINDI</option>
+            <option value="2">TAMIL</option>
+            <option value="3">KANNADA</option>
+            <option value="4">ROMANTIC SONGS</option>
+            <option value="5">90Hits</option>
+            
+          </select>
+        <a href="art.html">Top artist</a>
+        <a href="login.html">Login/signup</a>
+        
+       
+    </div><br><br><br>
+    <h1>Trending songs</h1>
+    <div class="row" >
+     
+      
+        <div class="column" style="background-color:black"><img src="img/sammu.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif;">sammohanuda..</h5><br><br>
+         
+          
+        </div>
+        <div class="column" style="background-color:black;"><img src="img/kush.webp" alt="Arjun Reddy" width="139px" height="159px" ><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif;">Na Roja nve..</h5><br><br>
+
+          
+        </div>
+        <div class="column" style="background-color:black;"><img src="img/shetty.webp" alt="Arjun Reddy" width="139px" height="159px" ><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif;">sammohanuda..</h5><br><br>
+          
+        </div>
+        <div class="column" style="background-color:black;"><img src="img/ja.webp" alt="Arjun Reddy" width="139px" height="159px" ><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 30%;" >Cheliya..</h5><br><br>
+          
+        </div>
+        <div class="column" style="background-color:black;"><img src="img/bro.webp" alt="Arjun Reddy" width="139px" height="159px" ><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif;text-indent: 30%;">Bro..</h5><br><br>
+
+          
+        </div>
+        <div class="column" style="background-color:black;"><img src="img/ch.webp" alt="Arjun Reddy" width="139px" height="159px" ><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 20%;">Narsapelli..</h5><br><br>
+
+        </div>
+        <div class="column" style="background-color:black"><img src="img/jailer.webp" alt="Arjun Reddy" width="139px" height="159px" ><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif;">haa nvu kavali..</h5><br><br>
+          
+        </div>
+        <div class="row" >
+          <div class="column" style="background-color:black;"><img src="img/Bhediya.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 20%;">Bhediyaa..</h5><br><br>
+    
+           
+          </div>
+    </div><br>
+    
+       
+    <div class="row" >
+      <div class="column" style="background-color:black;"><img src="img/nee.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 10%;">Nee jhathai..</h5><br><br>
+
+       
+      </div>
+      <div class="row" >
+        <div class="column" style="background-color:black;"><img src="img/ilove.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 10%;">I L0ve You..</h5><br><br>
+  
+         
+        </div>
+      <div class="column" style="background-color:black;"><img src="img/k.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 20%;"> Araadhya..</h5><br><br>
+
+          
+      </div>
+      <div class="column" style="background-color:black;"><img src="img/ko.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 10%;">Kovilamma..</h5><br><br>
+        
+      </div>
+      <div class="column" style="background-color:black;"><img src="img/sammu.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 5%">sammohanuda..</h5><br><br>
+        
+      </div>
+      <div class="column" style="background-color:black;"><img src="img/srch_sonymusic_A10328E0010427685D.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif;text-indent: 20%">kesariyaa..</h5><br><br>
+
+         
+      </div>
+      <div class="column" style="background-color:black;"><img src="img/sutu.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif;text-indent: 0%">Suttamla soosi..</h5><br><br>
+
+      </div>
+      <div class="column" style="background-color:black;"><img src="img/dum.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif;text-indent: 20%">Ekk dum..</h5><br><br>
+        
+      </div>
+  </div><br><br>
+        
+  
+<!-- <h1>Telugu party hits</h1> -->
+<div class="row" >
+  <div class="column" style="background-color:black;"><img src="img4/1.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 15%;">Ganesh..</h5><br><br>
+
+   
+  </div>
+<div class="column" style="background-color:black;"><img src="img4/2.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 10%;">Teenumaru..</h5><br><br>
+
+    
+</div>
+<div class="column" style="background-color:black;"><img src="img4/3.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 20%;">Kaavaali..</h5><br><br>
+  
+</div>
+<div class="column" style="background-color:black;"><img src="img4/4.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 10%;">Rammayya..</h5><br><br>
+  
+</div>
+<div class="column" style="background-color:black;"><img src="img4/5.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 10%;">Dummaree..</h5><br><br>
+
+   
+</div>
+<div class="column" style="background-color:black;"><img src="img4/6.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 10%;">Gandarabai..</h5><br><br>
+
+</div>
+<div class="column" style="background-color:black;"><img src="img4/7.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 25%;">Dance..</h5><br><br>
+  
+</div>.
+
+<div class="column" style="background-color:black;"><img src="img4/8.webp" alt="Arjun Reddy" width="139px" height="159px"><h5 style="color: whitesmoke; font-family:Georgia, 'Times New Roman', Times, serif; text-indent: 20%;">Lingi lingi</h5><br><br>
+
+</div>
+
+
+</div><br><br>
+
+
+<dl style="color: #bbb;border: 2px solid white; padding: 15px; margin: 20px;"><h1>About Music World</h1>
+   Music is a complete package that allows you free online music streaming, set caller tunes, listen to podcasts, download MP3 music offline, and much more! Since music is essentially the only thing that can truly understand a person, we consistently offer our audience the ideal blend of MP3 Songs by their favourite artists and of versatile genres.
+  
+  Play & Download FREE MP3 Songs in all languages
+  One of the unique features of  Music is that it offers users the ability to stream music in multiple regional languages, including Hindi, Punjabi, Bengali, Tamil, Telugu, and more. Also, users of the app can download MP3 songs for offline listening. This online music platform provides access to additional features such as offline listening, high-quality audio, and exclusive content.
+  
+   Music – One Stop Destination for Offline & Online Music!
+   Music offers users access to a vast library of music, including Indian and international tracks across various genres like Bollywood, Punjabi, pop, rock, and more. We have made online music streaming simple, fun, and all about you! So, what’s the wait for, discover and listen to millions of songs, playlists, podcasts & download MP3 songs on any device including mobile for free exclusively on Wynk Music. Keep music!</dl><br><br><br>
+
+<dl style="color: #bbb;border: 3px solid white; padding: 15px;margin: 25px;"><h2>LATEST SONGS</h2>
+  Not Ramaiya Vastavaiya (From "Jawan")  |  Kasam Se  |  Tera Mera Saath  |  Apney Pyar Ke Sapney  |  Kanhaiya Twitter Pe Aaja (From "The Great Indian Family")  |  Indian Hip Hop Cypher  |  Nusta Paisa  |  Prarthana  |  Wapas Na Aayenge  |  Muskurayega  |  Saure Ghar (From "Yaariyan 2")  |  Chaleya (From "Jawan")  |  Roz Pyaar  |  Zindagi Se Zyada Tujhse Pyaar Main Karta Hoon  |  CROWN
+  
+  <h2>REGIONAL PLAYLISTS</h2><h2></h2>
+  New Bengali Songs  |  New Bhojpuri Songs  |  New English Songs  |  New Haryanvi Songs  |  New Hindi Songs  |  New Kannada Songs  |  New Marathi Songs  |  New Punjabi Songs  |  New Tamil Songs  |  New Telugu Songs  |  New Odia Songs  |  New Rajasthani Songs  |  New Gujarati Songs  |  New Assamese Songs
+  
+  <h2>TRENDING SONGS</h2>
+  Heeriye (feat. Arijit Singh)  |  Chaleya (From "Jawan")  |  Zihaal e Miskin  |  Apna Bana Le  |  Guli Mata  |  Tum Aur Main  |  Dil Jhoom  |  Phir Aur Kya Chahiye (From "Zara Hatke Zara Bachke")  |  Cheques  |  Hukum - Thalaivar Alappara (From "Jailer")  |  Ram Siya Ram (From "Adipurush")  |  Tere Vaaste (From "Zara Hatke Zara Bachke")  |  Yaar Ka Sataya Hua Hai  |  Chal Tere Ishq Mein  |  Yadav Brand 2
+  
+  <h2>TOP ARTISTS</h2>
+  Guru Randhawa  |  Arijit Singh  |  Atif Aslam  |  Justin Bieber  |  Gulzar  |  Armaan Malik  |  Sidhu Moose Wala  |  Alan Walker  |  Udit Narayan  |  Sonu Nigam  |  Sid Sriram  |  Akhil  |  Darshan Raval  |  Shreya Ghoshal  |  Alka Yagnik</dl>
+    
+        
+    
+    
+
+</body>
+</html>
